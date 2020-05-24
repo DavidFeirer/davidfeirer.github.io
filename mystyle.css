@@ -1,0 +1,84 @@
+body {
+	font-family: Georgia, serif;
+	background: url("media/TennisBall.jpg");
+	background-size: cover;
+	color: lightyellow;
+}
+
+
+header {
+	font-family: sans-serif;
+	background-color: black;
+	color: white;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, sans-serif;
+	font-weight: bold;
+
+}
+
+
+.footer{
+	font-size: 14px;
+	color: lightyellow;
+}
+
+img.responsive {
+		height: auto;
+    width:auto;
+
+  }
+
+#info{
+	color: yellow;
+	font-weight: bolder;
+	font-size: 30px;
+	text-align: center;
+}
+
+iframe{
+	width: 700px;
+	height: 700px;
+}
+
+table,
+th,
+td,
+caption {
+	border: 1px solid #a0a0a0;
+}
+
+table {
+	border-spacing: 0;
+	border-width: 1px 0 0 1px;
+	table-layout: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th, caption {
+	font-weight: 700;
+}
+
+	.flex-container {
+	display: flex;
+	background-color: orange;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: 25px;
+	}
+	.flex-container > div {
+	background-color: red;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+	}
